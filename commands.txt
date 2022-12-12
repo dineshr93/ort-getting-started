@@ -1,0 +1,5 @@
+ or -f NoticeTemplate,StaticHtml,WebApp  -i scan-result.yml -o out
+ 
+ ort evaluate --package-curations-file curations.yml --rules-file example.rules.kts --license-classifications-file license-classifications.yml -i scan-result.yml -o .
+ 
+ or -f NoticeTemplate,StaticHtml,WebApp  -i evaluation-result.yml -o out2
